@@ -73,6 +73,11 @@ td {
   padding: 20px;
 }
 
+
+.icon-center{
+
+}
+
 .fab{
   font-size: 35px;
 }
@@ -88,6 +93,26 @@ td {
 
 .fas:hover{
   color: #ffe867;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#sidebar ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 /* Media Queries*/
 
