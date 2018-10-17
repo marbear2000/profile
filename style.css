@@ -1,0 +1,125 @@
+/* fonts and colors */
+
+body{
+  background-color: #f7f7f7;
+  font-family: Open Sans, Arial, serif;
+  color: #7d7d7d;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 26px;
+  color: #db2d43;
+}
+
+h2 {
+  font-size: 20px;
+  color: #db2d43;
+  font-family: Roboto, Arial, serif;
+}
+
+a{
+  text-decoration: none;
+  color: #10316b;
+  font-size: 14px;
+  padding: 6px;
+}
+
+a:hover {
+  color: #ffe867;
+}
+
+td {
+   border: 1px solid #f7f7f7;
+   padding: 5px 0px;
+}
+/* layout*/
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: rgba(1px 2px 1px, 0.3)
+}
+
+/* Advanced design*/
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: inset 2px 1px 2px #7d7d7d;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-red{
+    background-color: #db2d43;
+    padding: 10px 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.list-inline li{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.fab{
+  font-size: 35px;
+}
+.fab:hover {
+  color: #ffe867;
+}
+
+.fas{
+  color: #7d7d7d;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.fas:hover{
+  color: #ffe867;
+}
+/* Media Queries*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
